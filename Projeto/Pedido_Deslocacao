@@ -1,0 +1,82 @@
+Requerente
+	ID_Requerente
+	Nome
+	ID_Servico
+	ID_Objetivo
+	ID_Destino
+	ID_DataInicio
+	ID_DataFim
+	ID_Encargos
+	ID_EstimaDespesa
+	ID_DocumentosAnexo
+Serviço
+	ID_Servico
+	Servico
+
+Objetivo
+	ID_Objetivo
+	Objetivo
+
+Destino
+	ID_Destino
+	Destino
+	
+Data_Inicio
+	ID_DataInicio
+	DataInicio
+	
+Data_Fim
+	ID_DataFim
+	DataFim
+
+Encargos
+	ID_Encargos
+	Encargos
+
+(
+ACHO QUE ESTES SAO DESNECESSÁRIOS
+ApoioEntidade
+	ID_Encargos
+	ID_ApoioEntidade
+	
+ApoioExterno
+	ID_Encargos
+	ID_ApoioExterno
+
+SemApoio
+	ID_Encargos
+	ID_SemApoio
+)
+EstimaDespesa
+	ID_EstimaDespesa
+	Inscrição
+	ID_Refeicoes
+	ID_Transportes
+
+Refeicoes
+	ID_Refeicoes
+	ID_EstimaDespesa
+	Almoco
+	Jantar
+	
+Transportes
+	ID_Transportes
+	Tipo_Transporte
+(
+ACHO QUE ESTES SAO DESNECESSÁRIOS
+VeiculoServiço
+	ID_Transportes
+	ID_VeiculoServiço
+	
+TransportePublico
+	ID_Transportes
+	ID_TransportePublico
+	
+VeiculoProprio
+	ID_Transportes
+	ID_VeiculoProprio
+
+)	
+DocumentosAnexo
+	ID_DocumentoAnexo
+	DocumentoAnexo

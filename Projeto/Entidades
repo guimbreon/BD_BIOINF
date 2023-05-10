@@ -1,0 +1,110 @@
+Requerente:
+
+    ID_Requerente
+    Nome
+    ID_Categoria
+    ID_Destino
+    ID_DataInicio
+    ID_DataFim
+    ID_Motivo
+    ID_ServicoDocente
+    ID_Encargos
+    ID_EstimaDespesa
+    ID_DocumentosAnexo
+
+Destino:
+
+    ID_Destino
+    Destino
+
+Categoria:
+
+    ID_Categoria
+    Categoria
+
+Data_inicio:
+
+    ID_DataInicio
+    Data_Inicio
+
+Data_fim:
+
+    ID_DataFim
+    Data_fim
+
+Motivo:
+
+    ID_Motivo
+    Motivo
+
+Serviço_docente:
+
+    ID_ServicoDocente
+    Serviço_docente (ou não é afetado ou fica assegurado ou é posteriormente compensado)
+
+Encargos:
+
+    ID_Encargos
+    ID_EntidadeConvida
+    ID_FP
+    ID_EntidadeExterna
+    Encargos
+
+Entidade_Convida:
+
+    ID_EntidadeConvida
+    Nome_Entidade_Convida
+
+FP:
+
+    ID_FP
+    FP (projeto, protocolo, FCT, etc.)
+
+Entidade_Externa:
+
+    ID_EntidadeExterna
+    Entidade_Externa
+
+Serviço:
+
+    ID_Servico
+    Servico
+
+Objetivo:
+
+    ID_Objetivo
+    Objetivo
+
+Data_Inicio:
+
+    ID_DataInicio
+    DataInicio
+
+Data_Fim:
+
+    ID_DataFim
+    DataFim
+
+EstimaDespesa:
+
+    ID_EstimaDespesa
+    Inscrição
+    ID_Refeicoes
+    ID_Transportes
+
+Refeicoes:
+
+    ID_Refeicoes
+    ID_EstimaDespesa
+    Almoco
+    Jantar
+
+Transportes:
+
+    ID_Transportes
+    Tipo_Transporte
+
+DocumentosAnexo:
+
+    ID_DocumentoAnexo
+    DocumentoAnexo
