@@ -1,5 +1,6 @@
 USE T2_G3
 
+
 -- Requerente
 CREATE TABLE [202200596].Requerente (
     ID_Requerente INT PRIMARY KEY,
@@ -10,9 +11,9 @@ CREATE TABLE [202200596].Requerente (
     ID_DataFim INT,
     ID_Motivo INT,
     ID_ServicoDocente INT,
-    ID_Encargos INT,
     ID_EstimaDespesa INT,
-    ID_DocumentosAnexo INT
+    ID_DocumentosAnexo INT,
+	ID_Objetivo INT
 );
 
 -- Destino
@@ -52,36 +53,9 @@ CREATE TABLE [202200596].Servico_docente (
 );
 
 -- Encargos
-CREATE TABLE [202200596].Encargos (
-    ID_Encargos INT PRIMARY KEY,
-    ID_EntidadeConvida INT,
-    ID_FP INT,
-    ID_EntidadeExterna INT,
-    Encargos VARCHAR(255)
-);
-
--- Entidade_Convida
-CREATE TABLE [202200596].Entidade_Convida (
-    ID_EntidadeConvida INT PRIMARY KEY,
-    Nome_Entidade_Convida VARCHAR(255)
-);
-
--- FP
-CREATE TABLE [202200596].FP (
-    ID_FP INT PRIMARY KEY,
-    FP VARCHAR(255)
-);
-
--- Entidade_Externa
-CREATE TABLE [202200596].Entidade_Externa (
-    ID_EntidadeExterna INT PRIMARY KEY,
-    Entidade_Externa VARCHAR(255)
-);
-
--- Serviço
-CREATE TABLE [202200596].Servico (
-    ID_Servico INT PRIMARY KEY,
-    Servico VARCHAR(255)
+CREATE TABLE [202200596].Encargo (
+    ID_Encargo INT PRIMARY KEY,
+    Encargos VARCHAR(255) --ID empresa responsavel
 );
 
 -- Objetivo
@@ -95,17 +69,16 @@ CREATE TABLE [202200596].EstimaDespesa (
     ID_EstimaDespesa INT PRIMARY KEY,
     Inscrição VARCHAR(255),
     ID_Refeicoes INT,
-    ID_Transportes INT
+    ID_Transportes INT,
+	ID_Encargo INT
 );
 
 -- Refeicoes
 CREATE TABLE [202200596].Refeicoes (
     ID_Refeicoes INT PRIMARY KEY,
-    ID_EstimaDespesa INT,
     Almoco VARCHAR(255),
     Jantar VARCHAR(255)
 );
-
 -- Transportes
 CREATE TABLE [202200596].Transportes (
     ID_Transportes INT PRIMARY KEY,
