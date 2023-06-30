@@ -64,7 +64,7 @@ A seguir está a lista das entidades presentes no esquema do banco de dados:
    - ID_Aprovacao (INT)
    - ID_PedidoDesloca (INT) (chave estrangeira referenciando a tabela Pedido_Desloca)
    - Data_Aprovacao (DATE)
-   - Comentario (VARCHAR(200))
+   - Comentario (VARCHAR(200))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
 
 10. Requerente:
     - ID_Requerente (INT)
@@ -79,7 +79,7 @@ Essas entidades representam os principais elementos do sistema de gerenciamento 
 Foram feitos tambem Views, Trigger e Storage procedures para as tabelas da base de dados.
 
 ##README.md em Inglês
-[README.md](english/Readme.md)
+[README.md](english/README.md)
 
 ## Licença
 
