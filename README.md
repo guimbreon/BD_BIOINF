@@ -2,7 +2,7 @@
 
 Este repositório contém o trabalho de base de dados para uma organização responsável por solicitações de deslocação e ajudas de custo. O objetivo é administrar os pedidos de deslocação feitos pelos requerentes, armazenando informações relevantes sobre os requerentes, unidades orgânicas, pedidos de deslocação, documentos anexados, despachos, despesas, financiamentos, refeições e aprovações.
 
-##Documentos de apoio:
+## Documentos de apoio:
 
 No ficheiro [Docs_Apoio](Docs_Apoio) temos os Documentos de Apoio usados para elaborar o trabalho.
 
