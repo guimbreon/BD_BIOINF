@@ -79,7 +79,7 @@ These entities represent the main elements of the company's travel request and e
 Views, Triggers, and Stored Procedures were also created for the database tables.
 
 ##README.md in Portuguese
-[README.md](../Readme.md)
+[README.md](../README.md)
 
 ## License
 
