@@ -78,7 +78,7 @@ Essas entidades representam os principais elementos do sistema de gerenciamento 
 
 Foram feitos tambem Views, Trigger e Storage procedures para as tabelas da base de dados.
 
-##README.md em Inglês
+## README.md em Inglês
 [README.md](english/README.md)
 
 ## Licença
